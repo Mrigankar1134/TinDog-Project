@@ -1,0 +1,158 @@
+
+
+#title{
+    background-color: #ff4c68;
+}
+.heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+.download{
+    width: 25px;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}  
+
+.nav-item{
+    padding: 0px 15px;
+}
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+h1{
+    color: #fff;
+    font-family: 'Montserrat-Black';
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0rem 0rem 3rem 0rem;
+}
+.btn-top{
+    margin: 5% 2% 0% 0%;
+}
+.col-lg-4{
+    position: relative;
+}
+.col-lg-4 h3,.col-lg-4 p{
+    text-align: center;
+}
+.heads{
+    margin-top: 2rem;
+}
+
+.icons{
+    width: 50px;
+    display: block;
+    margin: auto;
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.dog-img{
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+#features{
+    padding: 7% 15% 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.icons:hover{
+    color: #ff4c68;
+}
+
+.carousel-item{
+    padding: 7% 15% 7% 15%;
+}
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 100px;
+}
+em{
+    display: block;
+}
+h2{
+    font-family: 'Montserrat-bold';
+    color: #fff;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+#press{
+    background-color: #ef8172;
+    padding:  7% 15% 7% 15%;
+    text-align: center;
+}
+.press-logo{
+    width: 200px;
+    padding: 0px 20px;
+}
+.price-sec{
+    color: black;
+    font-weight: bold;
+}
+#pricing{
+    text-align: center;
+}
+.pricing-r{
+    margin: 1.5rem 3rem 1.5rem 3rem;
+}
+.price-head{
+    color: black;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding:  7% 20% 7% 20%;
+}
+.cta-head{
+    font-weight: bold;
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.btn-cta1{
+    margin-right: 1rem;
+}
+.btn-cta2{
+    margin-left: 1rem;
+}
+
+#footer{
+    background-color: #fff;
+    margin: 10% 0% 3% 0%;
+    text-align: center;
+}
+.fab-ico{
+    padding: 0px 10px 20px 10px;
+}
+.ico{
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .dog-img{
+        transform: rotate(0);
+        position: static;
+        padding-top: 100px;
+    }
+}
